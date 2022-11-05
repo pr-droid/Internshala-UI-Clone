@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/5c46d15aaf9e3c93f3160de4b520ec3c5b729802d2262b6add0d182925ae5c0c_200.webp">
+    <link rel="apple-touch-icon image_src"
+        href="./images/5c46d15aaf9e3c93f3160de4b520ec3c5b729802d2262b6add0d182925ae5c0c_200.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Internshala</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <img class="ps-4" src="./images/images.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarScroll">
+                    <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" aria-current="page" href="#">Subscription
+                                <button role="button">40% Off</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  fw-bold" href="./index.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="#">Applications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold " href="./postjob.html">Post Fresher Job
+                                <button role="button">NEW</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./messages.html">
+                                <div class="header_chat_notification"></div>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown admin-dropdown-navbar">
+
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-m"></i>
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-lg-start dropdown-menu-end"
+                                aria-labelledby="navbarScrollingDropdown">
+
+                                <li><a class="dropdown-item" href="#">Meena
+                                        <br><small> hr@meena</small></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Help Center </a></li>
+                                <li><a class="dropdown-item" href="#">Billing</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item" href="#">
+                                    Manage Accounts <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                      <li>
+                                        <a class="dropdown-item" href="#">Profile Settings</a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">Settings</a>
+                                      </li>
+                                 
+                                    </ul>
+                                  </li>
+                        </li>
+                        </ul>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid ">
+        <div class="max-width-container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mt-3">
+                    <li class="breadcrumb-item px-1"><a href="#">Dashboard</a></li>
+                    <li><i class="fa-solid fa-angle-right"></i></li>
+                    <li class="breadcrumb-item active px-1" aria-current="page">Applications Received</li>
+                </ol>
+
+                <div class="top-container row mb-4">
+                    <div class="title">
+                        <h5 class="fw-bolder">Applications for Web Development internship </h5>
+                    </div>
+                    <div class=" search-bar-container float-right">
+                        <div class="input-group">
+                            <input type="text" placeholder="Search..">
+                            <button type="button" class="btn btn-secondary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+            <hr>
+
+            <div class="flex-container row ">
+                <div class="col-md-2">
+                    <div class="navigation_outercontainer">
+                        <div class="row">
+                            <div class="col-sm-auto bg-light">
+                                <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light">
+
+                                    <ul class="nav nav-pills nav-flush flex-sm-column flex-roe  mb-auto mx-auto ">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link  px-1 m-1" title="" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-original-title="Home">
+                                                Access database <i class="fa-solid fa-crown"></i><span
+                                                    class="count-right">290</span>
+                                            </a>
+                                        </li>
+                                        <div class="nav-border-bottom mb-3">
+                                        </div>
+
+                                        <li>
+                                            <a href="#" class="nav-link active py-2 px-1 m-1" title=""
+                                                data-bs-toggle="tooltip" data-bs-placement="right"
+                                                data-bs-original-title="Dashboard">
+                                                Applications Received <span class="count-right active "> 22 </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-original-title="Orders">
+                                                Shortlisted <span class="count-right ms-3">0</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link py-2 m-1 px-2" title="" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-original-title="Orders">
+                                                Hired <span class="count-right ms-3">0</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-original-title="Products">
+                                                Not interested <span class="count-right ms-3">0</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-original-title="Customers">
+                                                Assignments <span class="count-right ms-3">0</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-original-title="Customers">
+                                                Interviews <span class="count-right ms-3">0</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-original-title="Customers">
+                                                Chat messages <span class="count-right yellow-count ms-3">10 NEW</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="application-container">
+                        <div class="application-top-box">
+                            <div class="application_top_inner_container">
+                                <h6 class="fw-bold mb-4">Showing 21 results out of 21 applications</h6>
+
+                                <div id="fixed_container_2">
+                                    <div class="select_all_container">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Select all
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="inner_container">
+                            <div class="inner ">
+                                <div class="individual_application p-1 ">
+                                    <div class="first-row d-flex p-2">
+                                        <div class="form-check ">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <!-- <label class="form-check-label" for="flexCheckDefault">
+                                      Default checkbox
+                                    </label> -->
+                                        </div>
+                                        <div class="applicant-name">
+                                            <h5 class="fw-bold">Harsh Wadhwani</h5>
+                                            <p class="applicant_location">Jaipur,Ajmer</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Experience
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <div class="experience_item1">
+                                                    <span class="heading fw-bold">Software Development at Sudhar
+                                                        Sabha</span>
+                                                    <div class="duration"> Apr'22 - Jun'22 2 mos (Internship)</div>
+                                                </div>
+                                                <div class="experience_item2 mt-2">
+                                                    <span class="heading fw-bold"> Web Development at Anuttamo Pvt
+                                                        Ltd</span>
+                                                    <div class="duration">Jun'21 - Jul'211 mo (Internship)
+                                                        <span class="px-3">+1 More</span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Education
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <div class="education_item1">
+                                                    <span class="heading fw-bold">B.Tech, Computer Science (2020 -
+                                                        2024)</span>
+                                                    <div class="Institute">Poornima Group Of Colleges
+                                                        <span class="px-3">+1 More</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row details m-1 p-1">
+
+                                            <div class="content_label col-md-3 ">
+                                                Skills
+                                            </div>
+
+
+                                            <div class="content_data col-md-9 d-flex">
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2">English Proficiency (Spoken)</div>
+                                                </div>
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2 "> English Proficiency (Written)</div>
+                                                </div>
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2">Ms-Excel</div>
+                                                </div>
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2 ">Ms-Office</div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Cover letter <i class="fa-solid fa-circle-info"></i>
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>As, I have just started my career, I don't have that much practical
+                                                    achievements, but I really want to practically expl <span
+                                                        id="dots">...</span><span id="more">ore and
+                                                        experience my potential by delivering the best services to the
+                                                        company. It will be a privileget to work with you and this
+                                                        organization.</span><a onclick="myFunction()" id="myBtn">See
+                                                        more</a></p>
+
+                                            </div>
+                                        </div>
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Availability
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>available for 1 month after july i can work remotely</p>
+                                            </div>
+                                        </div>
+                                        <div class=" row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Assestment
+                                            </div>
+                                        </div>
+                                        <div class="row details mx-1 px-2">
+                                            <div class="col-md-3 content_label nonuppercase">
+                                                Answer 1
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>yes, deployed a ecomm website on GCP</p>
+                                            </div>
+                                        </div>
+                                        <div class="row details mx-1 px-2">
+                                            <div class="col-md-3 content_label nonuppercase">
+                                                Answer 2
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>Git is a version control system that helps to track record and
+                                                    ma<span id="dots2">...</span><span id="more2"> nage
+                                                        source codes . GitHub is a cloud-based hosting service that
+                                                        manages
+                                                        Git repositories </span><a onclick="myFunction2()"
+                                                        id="myBtn2">See
+                                                        more</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="add-items-container">
+                                            <div class="add-notes">
+                                                <a data-bs-target="#exampleModal" data-bs-toggle="modal" href="">
+                                                    <i class="fa-solid fa-file-lines"></i>
+                                                    <span class="notes-text">
+                                                        Add Notes
+                                                    </span>
+                                                </a>
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel"> <i
+                                                                        class="fa-solid fa-file-lines"></i> Notes</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                You can save your notes on the applicant here
+                                                                <div class="form-outline">
+                                                                    <textarea class="form-control" id="textAreaExample2"
+                                                                        rows="8"></textarea>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+
+                                                                <button type="button" class="btn modal-btn fw-bold">Save
+                                                                    notes</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="left-container ">
+                                                    <a href="./view-application.html">View Full Application</a>
+                                                </div>
+                                            </div>
+
+
+
+
+                                            <div class="right-container  ms-auto">
+                                                <div class="action-right-container">
+                                                    <button type="button"
+                                                        class=" btn not_interested-btn m-2 fw-bold">Not
+                                                        Interested</button>
+                                                    <button type="button"
+                                                        class=" btn shortlist-btn m-2 fw-bold">Shortlist</button>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <button class="btn dropdown-toggle next_steps-btn m-2 fw-bold"
+                                                        type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                        aria-expanded="false">
+                                                        Next Steps
+                                                    </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-pen-to-square"></i>&nbsp;Send
+                                                                Assignment</a></li>
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-calendar"></i> &nbsp;Schedule
+                                                                interview</a>
+                                                        </li>
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-message"></i>&nbsp;Start Chat</a>
+                                                        </li>
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-user"></i>&nbsp;Hire</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="individual_application p-1">
+                                    <div class="first-row d-flex p-2">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value=""
+                                                id="flexCheckDefault">
+
+                                        </div>
+                                        <div class="applicant-name">
+                                            <h5 class="fw-bold">Harsh Wadhwani</h5>
+                                            <p class="applicant_location">Jaipur,Ajmer</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Experience
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <div class="experience_item1">
+                                                    <span class="heading fw-bold">Software Development at Sudhar
+                                                        Sabha</span>
+                                                    <div class="duration"> Apr'22 - Jun'22 2 mos (Internship)</div>
+                                                </div>
+                                                <div class="experience_item2 mt-2">
+                                                    <span class="heading fw-bold"> Web Development at Anuttamo Pvt
+                                                        Ltd</span>
+                                                    <div class="duration">Jun'21 - Jul'211 mo (Internship)
+                                                        <span class="px-3">+1 More</span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Education
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <div class="education_item1">
+                                                    <span class="heading fw-bold">B.Tech, Computer Science (2020 -
+                                                        2024)</span>
+                                                    <div class="Institute">Poornima Group Of Colleges
+                                                        <span class="px-3">+1 More</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row details m-1 p-1">
+
+                                            <div class="content_label col-md-3 ">
+                                                Skills
+                                            </div>
+
+
+                                            <div class="content_data col-md-9 d-flex">
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2">English Proficiency (Spoken)</div>
+                                                </div>
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2 "> English Proficiency (Written)</div>
+                                                </div>
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2">Ms-Excel</div>
+                                                </div>
+                                                <div class="skill-container d-flex ">
+                                                    <div class="star-icon">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-regular fa-star"></i>
+                                                    </div>
+                                                    <div class="skill-text px-2 ">Ms-Office</div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Cover letter <i class="fa-solid fa-circle-info"></i>
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>As, I have just started my career, I don't have that much practical
+                                                    achievements, but I really want to practically expl <span
+                                                        id="dots3">...</span><span id="more3">ore and
+                                                        experience my potential by delivering the best services to the
+                                                        company. It will be a privileget to work with you and this
+                                                        organization.</span><a onclick="myFunction3()" id="myBtn3">See
+                                                        more</a></p>
+
+                                            </div>
+                                        </div>
+                                        <div class="row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Availability
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>available for 1 month after july i can work remotely</p>
+                                            </div>
+                                        </div>
+                                        <div class=" row details m-1 p-1">
+                                            <div class="col-md-3 content_label">
+                                                Assestment
+                                            </div>
+                                        </div>
+                                        <div class="row details mx-1 px-2">
+                                            <div class="col-md-3 content_label nonuppercase">
+                                                Answer 1
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>yes, deployed a ecomm website on GCP</p>
+                                            </div>
+                                        </div>
+                                        <div class="row details mx-1 px-2">
+                                            <div class="col-md-3 content_label nonuppercase">
+                                                Answer 2
+                                            </div>
+                                            <div class="col-md-9 content_data">
+                                                <p>Git is a version control system that helps to track record and
+                                                    ma<span id="dots4">...</span><span id="more4"> nage
+                                                        source codes . GitHub is a cloud-based hosting service that
+                                                        manages Git repositories </span><a onclick="myFunction4()"
+                                                        id="myBtn4">See
+                                                        more</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="add-items-container">
+                                            <div class="add-notes">
+                                                <a data-bs-target="#exampleModal" data-bs-toggle="modal" href="">
+                                                    <i class="fa-solid fa-file-lines"></i>
+                                                    <span class="notes-text">
+                                                        Add Notes
+                                                    </span>
+                                                </a>
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel"> <i
+                                                                        class="fa-solid fa-file-lines"></i> Notes</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                You can save your notes on the applicant here
+                                                                <div class="form-outline">
+                                                                    <textarea class="form-control" id="textAreaExample2"
+                                                                        rows="8"></textarea>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+
+                                                                <button type="button" class="btn modal-btn fw-bold">Save
+                                                                    notes</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="left-container ">
+                                                    <a href="./view-application.html">View Full Application</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="right-container  ms-auto">
+                                                <div class="action-right-container">
+                                                    <button type="button"
+                                                        class=" btn not_interested-btn m-2 fw-bold">Not
+                                                        Interested</button>
+                                                    <button type="button"
+                                                        class=" btn shortlist-btn m-2 fw-bold">Shortlist</button>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <button class="btn dropdown-toggle next_steps-btn m-2 fw-bold"
+                                                        type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                        aria-expanded="false">
+                                                        Next Steps
+                                                    </button>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-pen-to-square"></i>&nbsp;Send
+                                                                Assignment</a></li>
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-calendar"></i> &nbsp;Schedule
+                                                                interview</a>
+                                                        </li>
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-message"></i>&nbsp;Start Chat</a>
+                                                        </li>
+                                                        <li class="p-2"><a class="dropdown-item" href="#"><i
+                                                                    class="fa-solid fa-user"></i>&nbsp;Hire</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 filter-container">
+                    <div class="filter-outer-container">
+
+                        <div id="filters">
+                            <div class="filter-elements-container p-2">
+                                <h4>Filters </h4>
+
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="Location-filter" class="form-label">Applicants Location</label>
+                                        <input type="text" class="form-control" id="Location-filter"
+                                            aria-describedby="emailHelp" placeholder="e.g. Mumbai">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="skills-filter" class="form-label">Skills</label>
+                                        <input type="text" class="form-control" id="Location-filter"
+                                            aria-describedby="emailHelp" placeholder="e.g. Java">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="background-filter" class="form-label">Academic bacground</label>
+                                        <input type="email" class="form-control" id="background-filter"
+                                            aria-describedby="emailHelp" placeholder="e.g. MBA or similar">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="graduation_year-filter" class="form-label">Graduation Year</label>
+
+                                        <select class="form-select" aria-label="Default select example"
+                                            placeholder="e.g. 2021">
+
+                                            <option value="1">2021</option>
+                                            <option value="2">2022</option>
+                                            <option value="3">2023</option>
+                                        </select>
+
+                                    </div>
+
+                                    <label for="customRange3" class="form-label">Minimum academic performance</label>
+                                    <input type="range" class="form-range" min="0" max="6" step="0.5" id="customRange3"
+                                        value="0">
+                                    <div id="performance_values-container" class="d-flex">
+                                        <div class="performance_value small-text mx-2">0</div>
+                                        <div class="performance_value small-text mx-2">60%</div>
+                                        <div class="performance_value small-text mx-2">70%</div>
+                                        <div class="performance_value small-text mx-2">80%</div>
+                                        <div class="performance_value small-text mx-2">90%</div>
+                                        <div class="performance_value small-text mx-2">100%</div>
+                                    </div>
+
+                                    <div class="switch_button-filters mt-4">
+
+                                        <div class="form-switch form-check mt-2 ">
+
+                                            <label class="form-check-label ps-5" for="flexSwitchCheckDefault">Good cover
+                                                letters only</label>
+                                            <input class="form-check-input ps-2" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault" />
+                                        </div>
+
+                                        <div class="form-check form-switch mt-2 ">
+
+                                            <label class="form-check-label ps-5" for="flexSwitchCheckDefault">Assignment
+                                                not sent</label>
+                                            <input class="form-check-input ps-2" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault" />
+                                        </div>
+
+                                        <div class="form-check form-switch mt-2 ">
+
+                                            <label class="form-check-label ps-5 " for="flexSwitchCheckDefault">Interview
+                                                not scheduled </label>
+                                            <input class="form-check-input ps-2" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault" />
+                                        </div>
+                                    </div>
+                                    <div class="filter-buttons mt-5">
+                                        <button role="button" class="btn clear_all-btn ms-5 ">Clear all</button>
+                                        <button role="button" class="bt show_results-btn p-1 px-2 ms-3 fw-bold">Show
+                                            Results</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-container-mobile fixed-bottom">
+
+                <div id="application-tab">
+
+                    <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                        aria-controls="offcanvasExample">
+                        Applications Received <span class="count-right active ms-1"> 22 </span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Applications Received</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <ul class="nav nav-pills nav-flush flex-sm-column flex-column  mb-auto mx-auto ">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link py-3 px-1 m-1" title="" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" data-bs-original-title="Home">
+                                    Access database <i class="fa-solid fa-crown"></i><span
+                                        class="count-right">290</span>
+                                </a>
+                            </li>
+
+                            <div class="nav-border-bottom mb-3">
+                            </div>
+                            <li>
+                                <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" data-bs-original-title="Orders">
+                                    Shortlisted <span class="count-right ms-3">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-2 m-1 px-2" title="" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" data-bs-original-title="Orders">
+                                    Hired <span class="count-right ms-3">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" data-bs-original-title="Products">
+                                    Not interested <span class="count-right ms-3">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" data-bs-original-title="Customers">
+                                    Assignments <span class="count-right ms-3">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" data-bs-original-title="Customers">
+                                    Interviews <span class="count-right ms-3">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-2 px-2 m-1" title="" data-bs-toggle="tooltip"
+                                    data-bs-placement="right" data-bs-original-title="Customers">
+                                    Chat messages <span class="count-right yellow-count ms-3">10 NEW</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="filters-tab">
+
+                    <button class="btn  float-end" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="fa-solid fa-filter"></i> Filters
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div id="filters">
+                            <div class="filter-elements-container p-4">
+                                <h4 class="d-flex fw-bold">Filters <button type="button"
+                                        class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button></h4>
+
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="Location-filter" class="form-label">Applicants Location</label>
+                                        <input type="text" class="form-control" id="Location-filter"
+                                            aria-describedby="emailHelp" placeholder="e.g. Mumbai">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="skills-filter" class="form-label">Skills</label>
+                                        <input type="text" class="form-control" id="Location-filter"
+                                            aria-describedby="emailHelp" placeholder="e.g. Java">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="background-filter" class="form-label">Academic bacground</label>
+                                        <input type="email" class="form-control" id="background-filter"
+                                            aria-describedby="emailHelp" placeholder="e.g. MBA or similar">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="graduation_year-filter" class="form-label">Graduation Year</label>
+
+                                        <select class="form-select" aria-label="Default select example"
+                                            placeholder="e.g. 2021">
+
+                                            <option value="1">2021</option>
+                                            <option value="2">2022</option>
+                                            <option value="3">2023</option>
+                                        </select>
+
+                                    </div>
+
+                                    <label for="customRange3" class="form-label">Minimum academic performance</label>
+                                    <input type="range" class="form-range" min="0" max="6" step="0.5" id="customRange3"
+                                        value="0">
+                                    <div id="performance_values-container" class="d-flex">
+                                        <div class="performance_value small-text mx-2">0</div>
+                                        <div class="performance_value small-text mx-2">60%</div>
+                                        <div class="performance_value small-text mx-2">70%</div>
+                                        <div class="performance_value small-text mx-2">80%</div>
+                                        <div class="performance_value small-text mx-2">90%</div>
+                                        <div class="performance_value small-text mx-2">100%</div>
+                                    </div>
+
+                                    <div class="switch_button-filters mt-4">
+
+                                        <div class="form-switch form-check mt-2 ">
+
+                                            <label class="form-check-label ps-5" for="flexSwitchCheckDefault">Good cover
+                                                letters only</label>
+                                            <input class="form-check-input ps-2" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault" />
+                                        </div>
+
+                                        <div class="form-check form-switch mt-2 ">
+
+                                            <label class="form-check-label ps-5" for="flexSwitchCheckDefault">Assignment
+                                                not sent</label>
+                                            <input class="form-check-input ps-2" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault" />
+                                        </div>
+
+                                        <div class="form-check form-switch mt-2 ">
+
+                                            <label class="form-check-label ps-5 " for="flexSwitchCheckDefault">Interview
+                                                not scheduled </label>
+                                            <input class="form-check-input ps-2" type="checkbox" role="switch"
+                                                id="flexSwitchCheckDefault" />
+                                        </div>
+                                    </div>
+                                    <div class="filter-buttons mt-5 d-flex  ">
+                                        <button role="button" class="btn clear_all-btn  ms-auto">Clear all</button>
+                                        <button role="button" class="bt show_results-btn p-1 px-2  fw-bold m-2">Show
+                                            Results</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script>
+
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "See more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "See less";
+                moreText.style.display = "inline";
+            }
+        }
+
+        function myFunction2() {
+            var dots2 = document.getElementById("dots2");
+            var moreText2 = document.getElementById("more2");
+            var btnText2 = document.getElementById("myBtn2");
+
+            if (dots2.style.display === "none") {
+                dots2.style.display = "inline";
+                btnText2.innerHTML = "See more";
+                moreText2.style.display = "none";
+            } else {
+                dots2.style.display = "none";
+                btnText2.innerHTML = "See less";
+                moreText2.style.display = "inline";
+            }
+        }
+        function myFunction3() {
+            var dots3 = document.getElementById("dots3");
+            var moreText3 = document.getElementById("more3");
+            var btnText3 = document.getElementById("myBtn3");
+
+            if (dots3.style.display === "none") {
+                dots3.style.display = "inline";
+                btnText3.innerHTML = "See more";
+                moreText3.style.display = "none";
+            } else {
+                dots3.style.display = "none";
+                btnText3.innerHTML = "See less";
+                moreText3.style.display = "inline";
+            }
+        }
+        function myFunction4() {
+            var dots4 = document.getElementById("dots4");
+            var moreText4 = document.getElementById("more4");
+            var btnText4 = document.getElementById("myBtn4");
+
+            if (dots4.style.display === "none") {
+                dots4.style.display = "inline";
+                btnText4.innerHTML = "See more";
+                moreText4.style.display = "none";
+            } else {
+                dots4.style.display = "none";
+                btnText4.innerHTML = "See less";
+                moreText4.style.display = "inline";
+            }
+        }
+
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+
+</html>

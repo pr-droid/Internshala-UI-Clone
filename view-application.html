@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/5c46d15aaf9e3c93f3160de4b520ec3c5b729802d2262b6add0d182925ae5c0c_200.webp">
+    <link rel="apple-touch-icon image_src"
+        href="./images/5c46d15aaf9e3c93f3160de4b520ec3c5b729802d2262b6add0d182925ae5c0c_200.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Internshala</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <img class="ps-4" src="./images/images.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarScroll">
+                    <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll fw-bold">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="./view-application.html">View Applicants
+                                <button role="button">40% Off</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="./index.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./application.html">Applications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold " href="./postjob.html">Post Fresher Job
+                                <button role="button">NEW</button>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./messages.html">
+                                <div class="header_chat_notification"></div>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown admin-dropdown-navbar">
+
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-m"></i>
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-lg-start dropdown-menu-end"
+                                aria-labelledby="navbarScrollingDropdown">
+
+                                <li><a class="dropdown-item" href="#">Meenakshi Shivdasani
+                                        <br><small> hr@infonic.in</small></a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Help Center </a></li>
+                                <li><a class="dropdown-item" href="#">Billing</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item" href="#">
+                                      Manage Accounts <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                      <li>
+                                        <a class="dropdown-item" href="#">Submenu item 1</a>
+                                      </li>
+                                      <li>
+                                        <a class="dropdown-item" href="#">Submenu item 2</a>
+                                      </li>
+                                 
+                                    </ul>
+                                  </li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="max-width-container application-container mx-auto mt-3">
+            <div class="breadcrumb-container details-container">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Dasboard</a></li>
+                        <li class="breadcrumb-item "><a href="#">Applications Received</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Purvi Phogat</li>
+                    </ol>
+                </nav>
+                <h5 class="fw-bolder">Applications for Human Resource (HR) internship </h5>
+            </div>
+            <div class="application_inner-container">
+                <div id="application_upperview">
+                    <div class="individual-applicaton_opened-view">
+                        <div class="first_row">
+                            <div class="applicant_nameandstatus d-flex">
+                                <div class="applicant_name fw-bold">Purvi Phogat</div>
+                                <div class="applicant_status ms-auto"> Applied 8 days ago</div>
+                            </div>
+                            <div class="applicant_location">
+                                Coventry, Jaipur
+                            </div>
+                        </div>
+                        <div class=" individual-application_applicant_skills  mt-3">
+                            <div class="content-label ">
+                                Skills <i class="fa-solid fa-circle-info"></i>
+                            </div>
+                            <div class="content-data d-flex">
+                                <div class="skill-container d-flex ">
+                                    <div class="star-icon">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="skill-text px-2">English Proficiency (Spoken)</div>
+                                </div>
+                                <div class="skill-container d-flex ">
+                                    <div class="star-icon">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div class="skill-text px-2 "> English Proficiency (Written)</div>
+                                </div>
+                                <div class="skill-container d-flex ">
+                                    <div class="star-icon">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <div class="skill-text px-2">Ms-Excel</div>
+                                </div>
+                                <div class="skill-container d-flex ">
+                                    <div class="star-icon">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <div class="skill-text px-2 ">Ms-Office</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="assesment-container" class="mt-4">
+                <div class="application_cover-letter">
+                    <div id="assesment">
+                        <h5 class="fw-bold">Cover Letter, availability and assesment</h5>
+                        <div class="cover-letter_question-wrapper mt-4">
+                            <label>Cover Letter</label>
+                            <p class="assesment_question fw-bold">
+                                Why should you be hired for this role?
+                            </p>
+                            <p class="assesment_answer fw-bold">
+                                Dear Receiptent,<br>
+
+                                I, Purvi Phogat, am pleased to be applying for the opportunity provided by your firm.
+                                Currently pursuing B.Sc. in Economics (1st Year) from the University of Warwick, United
+                                Kingdom. Being a university student I have learned to manage my time appropriately, and
+                                gain valuable knowledge in the field of economics and mathematics. My Curiosity has also
+                                led me to explore the theories presented in The Undercover Economist' by T. Harford and
+                                Nudge' by R. Thaler and C. Sunstein. Economics is a mean for me to understand how this
+                                highly dynamic and increasingly integrated world economy works, and to answer some of
+                                the most interesting and complex questions. I also enjoyed the opportunity to apply
+                                statistical and mathematical methods to analyse Economics and Social data. One such
+                                project allowed me to compare the striking difference in GDP per capita between the UK
+                                and India, and how the Indian economy is slowly catching up with the UK on the GDP per
+                                capita basis. Project research on poverty alleviation programmes in India was also an
+                                excellent exercise to discover how the poverty line is decided, how poor people are
+                                empowered to access their livelihood, and how investing in high-quality childhood can be
+                                an asset to an economy. I am a national-level pistol shooter, and training for it has
+                                been a lesson in discipline and endurance. It has taught me to be calm under pressure,
+                                developed my decision-making ability and a sense of responsibility- things that I can
+                                apply in every sphere of life.
+                                <br>
+                                I am eager to expand my knowledge and develop my skills that could be applied in the
+                                real-life world, which I have begun by being a part of the Warwick welcome service where
+                                I represent the University on offer holder days, information sessions, and campus
+                                events. It has built up my experience, by giving me an opportunity to communicate
+                                effectively with prospective students, their families from diverse backgrounds, and
+                                international visitors.
+                                <br>
+                                <br>
+                                I hope my candidature is reviewed for this position.
+                                <br>
+                                Purvi Phogat
+
+                            </p>
+
+                            <label>Availability</label>
+                            <p class="assesment_question fw-bold">
+                                Are you available for 3 months, starting immediately, for a full-time internship at
+                                Jaipur? If not, what is the time period you are available for and the earliest date you
+                                can start this internship on?
+                            </p>
+                            <p class="assesment_answer fw-bold">
+                                Yes I am available for 3 Months i.e. from 5th July to 1st October
+                            </p>
+
+                            <label>Assesment</label>
+                            <p class="assesment_question fw-bold">
+                                Q 1. Are you comfortable in calling and convince people to join our organization
+                            </p>
+                            <p class="assesment_answer fw-bold">Yes, I have had multiple opportunites in my school as
+                                well as
+                                the University, which has
+                                given me chance towards betterment of my public engagment skills.</p>
+
+                            <p class="assesment_question fw-bold">
+                                Q 2. Do you know difference between sales and marketing
+                            </p>
+
+                            <p class="assesment_answer fw-bold">
+                                Yes, Sales is meant by the activity of selling the relevent product by the company and
+                                on the other hand, marketing is refered to as the pocess of making people interested in
+                                that product by different methods of promoting it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="resume-container" class="mt-4">
+                <h4>Resume</h4>
+                <div class="resume">
+                    <div class="resume-body">
+                        <div class="resume-education d-flex mt-3">
+                            <div class="content-label">Education</div>
+                            <div class="content-data educational-details">
+                                <div class="educational-detail_container">
+                                    <div class="detail-resumeitem mb-2">
+                                        <div class="line-head fw-bold">
+                                            Bachelor of Science (B.Sc) (Hons.), Economics</div>
+                                        <div class="line">University of Warwick</div>
+                                        <div class="line">2021 - 2024</div>
+                                    </div>
+                                    <div class="detail-resumeitem mb-2">
+                                        <div class="line-head fw-bold">
+                                            Senior Secondary (XII), Commerce</div>
+                                        <div class="line">India International School, Jaipur</div>
+                                        <div class="line">(CBE board)</div>
+                                        <div class="line">Year of completion: 2021</div>
+                                        <div class="line">CGPA: 9.53/10</div>
+                                    </div>
+                                    <div class="detail-resumeitem mb-2">
+                                        <div class="line-head fw-bold">
+                                            Secondary (X)</div>
+                                        <div class="line">India International School</div>
+                                        <div class="line">(CBSE board)</div>
+                                        <div class="line">Year of completion: 2019</div>
+                                        <div class="line">CGPA: 9.72/10</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-jobs d-flex mt-3">
+                            <div class="content-label">Jobs</div>
+                            <div class="content-data educational-details">
+                                <div class="educational-detail_container">
+                                    <div class="detail-resumeitem mb-2">
+                                        <div class="line-head fw-bold">
+                                            WARWICK WELCOME SERVICE</div>
+                                        <div class="line">University of Warwick, Conventory</div>
+                                        <div class="line">Jan 2022 - Present</div>
+                                        <div class="line-description">
+                                            <ol>
+                                                <li>Giving campus Tours</li>
+                                                <li>Interacting with new peoples</li>
+                                                <li>Teamwork</li>
+                                                <li>Managing certain events with a team and alone</li>
+                                                <li>learnt managing studies and work together</li>
+                                                <li>Built confidence</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resume-position d-flex mt-3">
+                            <div class="content-label">
+                                Position of Responsibility
+                            </div>
+                            <div class="content-data">
+                                I have been the head of the elocution club in my school and learned how to engage with
+                                different kinds of people.
+                            </div>
+                        </div>
+
+                        <div class="resume-additional-details d-flex mt-3">
+                            <div class="content-label ">
+                                Additional Details
+                            </div>
+                            <div class="content-data ">
+                                I am a national-level pistol shooter and got Selected for the Indian team trials and an
+                                athlete by passion on the school level.Held a place in many inter-school debate
+                                competitions and have been a part of various dance events in school and university
+                            </div>
+                        </div>
+
+                        <div class="resume-contact d-flex mt-3">
+                            <div class="content-label">Contact</div>
+                            <div>
+                                <div class="content-data mb-1"><strong>Internshala Chat:</strong>Send messages and share
+                                    assignment <a href="#">Open
+                                        Chat</a></div>
+                                <div class="content-data mt-1"><strong>Phone:</strong>+44 7747****** <i
+                                        class="fa-solid fa-crown"></i><a href="">Unlock<i
+                                            class="fa-solid fa-circle-info"></i></a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="application-action_container" class="fixed-bottom" >
+            <div class="max-width-container lower-side ms-auto me-auto p-3">
+                <div class="left-container d-flex ">
+
+                    <div class="left-cell m-2 mx-3">
+                        <a href="./messages.html"><i class="fa-regular fa-comment-dots"></i>&nbsp;Open Chat</a>
+                    </div>
+                    <div class="middle-cell m-2 mx-3">
+                        <!-- Button trigger modal -->
+                        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModalapplication">
+                            <i class="fa-solid fa-file-lines"></i>
+                            Send Assignment
+                        </a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalapplication" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4><i class="fas fa-edit">&nbsp;</i>Send Assignment
+                                        </h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+
+                                    <div class="modal-body">
+
+                                        <div class="alert alert-info" role="alert">
+                                            <i class="fa-solid fa-circle-info"></i> Please keep
+                                            the assignment relevant to the role and reasonable
+                                            to avoid complaints.
+                                        </div>
+                                        <div class="msg-section">
+                                            <div class="to-section">
+                                                <div> To:<span> Purvi Phogat </span></div>
+                                                <div class="form-outline mt-2">
+                                                    <textarea class="form-control" id="textAreaExample1"
+                                                        rows="6"></textarea>
+
+                                                </div>
+                                                <label class="assignment_attachment mt-2" for="assignment_files"> <i class="fa-solid fa-paperclip"></i>&nbsp;<span>Attachment</span></label>
+                                                <input type="file" name="assignment_file_to_upload" multiple="" id="assignment_files" accept=".pdf,.png,.jpg,.jpeg,.bmp,.gif,.zip,.xls,.doc" style="display: none;">
+                                                <div class="info">
+                                                    <small>Maximum file size 5 MB
+                                                        • Only jpeg, jpg, png, gif, bmp, pdf,
+                                                        zip, xls, doc allowed</small>
+                                                </div>
+                                            </div>
+
+                                            <section class="container mt-3 ">
+                                                <h6>Submission Deadline</h6>
+                                                <form class="row">
+
+                                                    <div class="col-5">
+                                                        <div class="input-group date" id="datepicker">
+                                                            <input type="date" class="form-control" id="date" />
+
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </section>
+                                        </div>
+                                        <div class="send-assignment-btn mt-3">
+                                            <button role="button" type="button">Send
+                                                Assignemnt</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-cell m-2 mx-3">
+                        <div class="add-notes">
+                            <a data-bs-target="#exampleModal2" data-bs-toggle="modal" href="">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <span class="notes-text">
+                                    Add Notes
+                                </span>
+                            </a>
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">
+                                                <i class="fa-solid fa-file-lines"></i> Notes
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            You can save your notes on the applicant here
+                                            <div class="form-outline">
+                                                <textarea class="form-control" id="textAreaExample2"
+                                                    rows="8"></textarea>
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+
+                                            <button type="button" class="btn modal-btn fw-bold">Save
+                                                notes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fourth-cell m-2 mx-4 ">
+                        <div class="dropup">
+                            <a href="" id="dropdownMenuButtondropup" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtondropup">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-download"></i>&nbsp;
+                                        Download Application</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-calendar"></i>&nbsp;Schedule
+                                        interview</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-triangle-exclamation"></i>&nbsp;Report applicant</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="middle-conatiner m-auto">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item-disabled"><a class="page-link">
+                                        <span aria-hidden="true">7/12</span>
+                                    </a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="right-container d-flex ms-auto">
+                    <button role="button" type="button" class="hire-btn px-4 mx-2 rounded fw-bold">Hire</button>
+                    <button role="button" type="button"
+                        class="not_interested-btn mx-2 rounded fw-bold">Interested</button>
+                    <button role="button" type="button" class="shortlist-btn mx-2 rounded">Shortlist</button>
+                </div>
+
+            </div>
+        </div>
+        <div id="mobile-application-action_container">
+            <div class="max-width-container lower-side ms-auto me-auto p-2">
+
+
+                <div class="mob-left-container d-flex ">
+                    <div class="mob-middle-container">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item-disabled"><a class="page-link">
+                                        <span aria-hidden="true">7/12</span>
+                                    </a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mob-left-cell ">
+                        <a href="./messages.html"><i class="fa-regular fa-comment-dots"></i>&nbsp;Open Chat</a>
+                    </div>
+                    <div class="mob-right-cell ">
+                        <div class="mob-add-notes">
+                            <a data-bs-target="#exampleModal2" data-bs-toggle="modal" href="">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                <span class="notes-text">
+                                    Add Notes
+                                </span>
+                            </a>
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">
+                                                <i class="fa-solid fa-file-lines"></i> Notes
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            You can save your notes on the applicant here
+                                            <div class="form-outline">
+                                                <textarea class="form-control" id="textAreaExample2"
+                                                    rows="8"></textarea>
+
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+
+                                            <button type="button" class="btn modal-btn fw-bold">Save
+                                                notes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mob-third-cell  ">
+                        <div class="dropup">
+                            <a href="" id="dropdownMenuButtondropup" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtondropup">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-download"></i>&nbsp;
+                                        Download Application</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-calendar"></i>&nbsp;Schedule
+                                        interview</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-triangle-exclamation"></i>&nbsp;Report applicant</a></li>
+                                <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Send Assignment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mob-right-container d-flex mt-3">
+                    <button role="button" type="button" class="hire-btn px-4 mx-2 rounded fw-bold">Hire</button>
+                    <button role="button" type="button"
+                        class="not_interested-btn mx-2 rounded fw-bold">Interested</button>
+                    <button role="button" type="button" class="shortlist-btn mx-2 rounded">Shortlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

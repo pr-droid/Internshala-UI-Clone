@@ -1,0 +1,428 @@
+@media only screen and (min-width: 356px) and (max-width: 768px) {
+
+  .footer div.max-width-container {
+    text-align: left;
+  }
+
+  footer .max-width-container .elements .element {
+    display: block;
+  }
+
+  #navbarScroll {
+    margin-left: 166px;
+
+  }
+
+  .nav-item .nav-link.active {
+    border-bottom: none;
+  }
+
+  #navbarScroll .navbar-nav-scroll {
+    --bs-scroll-height: 500px;
+  }
+
+  .first-row .individual-application_appliacnt_skills {
+    display: inherit;
+  }
+
+  .salary .section-internshala-form .inner-section-container .form-group .flex-row input {
+    width: 108px;
+  }
+
+  .stepwizard-row:before {
+    left: 71px;
+    width: 23%;
+
+  }
+
+  .info-container {
+    max-width: 391px;
+  }
+
+  .banner {
+    height: 236px;
+    border-radius: 10px;
+  }
+
+  .medium-explore a div {
+    padding: 0px 20px;
+  }
+
+  .button-container-section {
+    justify-content: center;
+  }
+
+  .row-flex {
+    flex-direction: column;
+  }
+
+  .max-width-container .row-flex .modal-card {
+    padding: 10px 20px 10px 0px;
+    width: 339px;
+    height: 265px;
+  }
+
+  img.content-left {
+    padding: 5px 10px 5px 10px;
+  }
+
+  .content-right h5 {
+    font-size: 18px;
+  }
+
+  .content-right .content {
+    font-size: 14px;
+  }
+
+  .content-right {
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  .row-flex .modal-card img {
+    height: 150px;
+    width: 130px;
+    margin: auto;
+  }
+
+  .modal .modal-testimonial-container {
+    padding: 0px;
+    max-height: 300px;
+    height: 300px;
+  }
+
+  .modal-testimonial-container .modal-testimonial-content {
+    flex-direction: column;
+    margin: 35px;
+  }
+
+  .modal-testimonial-container .modal-testimonial-content .modal-testimonial-img {
+    margin: 0px 89px;
+    margin-top: -44px;
+  }
+
+  .modal-testimonial-container .modal-testimonial-content {
+    max-height: 173px;
+    height: 160px;
+  }
+
+  .modal-testimonial-container .modal-testimonial-content .modal-testimonial-detail {
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .modal-testimonial-container .modal-testimonial-heading {
+    margin-bottom: 16px;
+    padding: 20px;
+  }
+
+  .modal-testimonial-text {
+    margin-bottom: 10px;
+  }
+
+  .chat-grp_content {
+    display: none;
+  }
+
+  .student-detail_right .hire-btn {
+    display: none;
+  }
+
+  .student-detail_right .not_interested-btn {
+    display: none;
+  }
+
+  .student-detail_right .shortlist-btn {
+    display: none;
+  }
+
+  .card-header .student-detail_left {
+    font-size: 14px;
+  }
+
+  .page-container .mob-header {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .card-header {
+    padding: 0px;
+    height: 60px;
+  }
+
+  #message-container h5 {
+    display: none;
+  }
+
+  .max-width-container {
+    padding: 1px;
+  }
+
+  .card-header>* {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .media-chat-reverse {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .media>* {
+    margin: 0px;
+  }
+
+  .media-body p {
+    font-size: 14px;
+  }
+
+  .media-chat {
+    padding-right: 64px;
+  }
+
+  .ps-container {
+    height: 280px;
+    overflow: auto;
+  }
+
+  .publisher {
+    height: 60px;
+  }
+
+  .navigation_outercontainer .collapse:not(.show) {
+    display: none;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .search-bar-container {
+    width: 100%;
+  }
+
+  .navigation_outercontainer .nav {
+    display: unset;
+  }
+
+  .bottom-container-mobile button {
+    display: block;
+  }
+
+  .flex-container .col-md-2 {
+    display: none;
+  }
+
+  .filter-container {
+    display: none;
+  }
+
+  .application-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .individual_application .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .action_container .right-container {
+    display: block;
+  }
+
+  .action_container {
+    display: block;
+  }
+
+  .inner_container .individual_application {
+    margin: 0px;
+  }
+
+  .max-width-container .row-flex .modal-card {
+    flex-direction: column;
+  }
+
+  #filters-tab .button {
+    margin: 10px;
+  }
+
+  .input-group input {
+    border: 1px solid #e4e7ea;
+    width: 88%;
+  }
+
+  .skills-container .skill {
+    display: block;
+  }
+
+  .individual_application {
+    margin: 0px;
+  }
+
+  .bottom-container-mobile #application-tab button {
+    color: #008BDC;
+  }
+
+  .bottom-container-mobile #application-tab span {
+    background-color: #008BDC;
+    color: white;
+    margin-left: 5px;
+  }
+
+  #filters-tab {
+    margin-left: 10px;
+  }
+
+  .bottom-container-mobile #filters-tab i {
+    color: #008BDC;
+  }
+
+  .add-items-container .add-notes {
+    flex-direction: row;
+  }
+
+  .add-items-container {
+    flex-direction: column;
+  }
+
+  .action-right-container {
+    display: flex;
+  }
+
+  .right-container {
+    display: inline-block;
+  }
+
+  .right-container .dropdown {
+    margin-left: 138px;
+  }
+
+  .add-notes {
+    margin-left: auto;
+  }
+
+  .individual-application_applicant_skills {
+    display: block;
+  }
+
+  .lower-side {
+    flex-direction: column;
+  }
+
+  #mobile-application-action_container {
+    display: block;
+  }
+
+  #application-action_container {
+    display: none;
+  }
+
+  .page-link {
+    padding: 2px;
+    color: #00a5ec;
+    font-size: 14px;
+  }
+
+  .mob-left-container .mob-left-cell {
+    margin: 1px 12px;
+
+  }
+
+  .mob-left-cell a {
+    color: #00a5ec;
+    font-size: 14px;
+  }
+
+  .mob-left-container .mob-right-cell {
+    margin: 1px 12px;
+  }
+
+  .mob-right-cell a {
+    color: #00a5ec;
+    font-size: 14px;
+  }
+
+  .mob-left-container .mob-third-cell {
+    margin: 1px 12px;
+  }
+
+  .mob-left-container .mob-middle-container {
+    margin: 0px 19px;
+  }
+
+  .mob-third-cell .dropup li {
+    font-size: 14px;
+    padding: 6px 6px;
+  }
+
+  .resume-body .resume-education {
+    flex-direction: column;
+  }
+
+  .resume-body .resume-jobs {
+    flex-direction: column;
+  }
+
+  .resume-body .resume-position {
+    flex-direction: column;
+  }
+
+  .resume-body .resume-additional-details {
+    flex-direction: column;
+  }
+
+  .resume-body .resume-contact {
+    flex-direction: column;
+  }
+
+  .resume-additional-details .content-data {
+    margin-left: 2px;
+  }
+
+  footer .container-fluid .max-width-container .elements {
+    text-align: left;
+    display: block;
+  }
+
+  #copyright {
+    float: left;
+  }
+
+  footer .max-width-container .elements .element {
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  #application-tab {
+    padding: 10px;
+  }
+
+  #filters-tab {
+    padding: 10px;
+  }
+
+  #filters {
+    height: 500px;
+    overflow-y: auto;
+  }
+
+  .banner-bg #mob-button {
+    margin-top: 10px;
+  }
+
+  #ban-img img {
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+
+  .table {
+    overflow-x: scroll;
+    overflow-y: visible
+  }
+}

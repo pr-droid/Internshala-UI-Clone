@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./images/5c46d15aaf9e3c93f3160de4b520ec3c5b729802d2262b6add0d182925ae5c0c_200.webp">
+  <link rel="apple-touch-icon image_src"
+    href="./images/5c46d15aaf9e3c93f3160de4b520ec3c5b729802d2262b6add0d182925ae5c0c_200.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Inter:wght@300&display=swap"
+    rel="stylesheet">
+  <title>Internshala</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <img class="ps-4" src="./images/internshala_logo_pride_month.svg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll fw-bold">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" aria-current="page" href="#">Subscription
+                <button role="button">40% Off</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./application.html">Applications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold " href="./postjob.html">Post Fresher Job
+                <button role="button">NEW</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./messages.html">
+                <div class="header_chat_notification"></div>
+              </a>
+            </li>
+            <li class="nav-item dropdown admin-dropdown-navbar">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-m"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-lg-start dropdown-menu-end "
+                aria-labelledby="navbarScrollingDropdown">
+
+                <li><a class="dropdown-item" href="#">Meena Shiva
+                    <br><small> hr@meena</small></a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Help Center </a></li>
+                <li><a class="dropdown-item" href="#">Billing</a></li>
+                
+                <li class="nav-item dropdown">
+                  <a class="dropdown-item" href="#">
+                   Manage Accounts <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu">
+                    <li>
+                      <a class="dropdown-item" href="#">Profile Settings</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Settings</a>
+                    </li>
+               
+                  </ul>
+                </li>
+            </li>
+            </ul>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="main-section ">
+
+      <div class="container mt-4">
+        <div class="col-md-8 mx-auto">
+          <div class="row banner-bg">
+            <div class="col-md-6 text-white banner-text p-3 fw-bolder">
+              <div class="fw-bold"> New post freshers jobs with <a href="" class="text-yellow"> 2 LPA CTC </a> and
+                Guaranteed hiring!</div>
+              <span>Claim a 100% refund if you'r unabl to hire within 30 days</span>
+            </div>
+            <div class="col-md-3 col-6 text-center" id="mob-button">
+              <button class="btn banner-btn p-2 mt-4 " type="submit">Post Job Now</button>
+            </div>
+            <div class="col-md-3 col-6" id="ban-img">
+              <img class="banner-img " src="./images/ae5ae16a1f8bdad663c96a699d91e646-removebg-preview.png">
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="alert alert-info d-flex align-items-center" role="alert">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
+                aria-label="Warning:">
+                <path
+                  d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+              </svg>
+              <div class="alert_text">
+                Now post unlimited fresher jobs and premium internships for just<b> ₹ 8,999 14,999 (40% introductory
+                  discount).
+                  <a href=""> View subscription plans. </a></b>Offer expires soon!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="user-list container ">
+        <div class="responsivetabs ">
+          <ul class="nav nav-tabs completed-order justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active fw-bold" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                type="button" role="tab" aria-controls="home" aria-selected="true">Internships</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-bold" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                type="button" role="tab" aria-controls="profile" aria-selected="false">Fresher Jobs
+              </button>
+            </li>
+          </ul>
+          <div class=" tabs_content " id="view1">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="col-md-10 offset-md-1">
+
+                  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators ">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active "
+                        aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="table">
+                          <table class="m-auto">
+                            <thead>
+                              <tr>
+                                <th scope="col">Profile</th>
+                                <th scope="col">State</th>
+                                <th scope="col" class="actionColumn">Action</th>
+                                <th scope="col" class="upgradeColumn"> <span>Upgrade to premium</span>
+
+                                  <span><a href="#" data-bs-toggle="tooltip" title="Some tooltip text!"
+                                      data-bs-placement="bottom">
+                                      <i class="fa-solid fa-circle-question"></i></a>
+
+
+                                    <div class="tooltip bs-tooltip-top" role="tooltip" data-bs-placement="bottom">
+
+                                      <div class="tooltip-inner">
+                                        Upgrade the internship post to premium
+                                      </div>
+                                    </div>
+                                  </span>
+                                </th>
+                                <th></th>
+                                <th></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+
+                              <tr>
+                                <td id="profileColumn" class="profileColumn">
+                                  <div class="profile_and_premium">
+                                    <div class="text">Web Development</div>
+                                  </div>
+                                </td>
+                                <td class="status statusColumn">
+                                  <span class="badge badge-pill active">Active</span>
+                                </td>
+
+                                <td class="applicationcountColumn"><button class="btn">View Application (17)</button>
+                                </td>
+                                <td class="upgradepremium"><img src="./images/paid_feature.svg">&nbsp;<a class="upgrade"
+                                    href="">Upgrade</a>
+                                </td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-circle-xmark"></i>&nbsp;Close internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Extend deadline</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+
+                                <td id="profileColumn" class="profileColumn">
+                                  <div class="profile_and_premium">
+                                    <div class="text">Human Resource (HR)</div>
+                                  </div>
+                                </td>
+                                <td class="status statusColumn"><span class="badge badge-pill active">Active</span></td>
+                                
+                                <td class="applicationcountColumn"><button class="btn">View Application (15)</button></td>
+                                <td class="upgradepremium"><img src="./images/paid_feature.svg">&nbsp;<a class="upgrade"
+                                    href="">Upgrade</a>
+                                </td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-circle-xmark"></i>&nbsp;Close internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Extend deadline</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+                              <tr>
+
+                                <td id="profileColumn" class="profileColumn">
+                                  <div class="profile_and_premium">
+                                    <div class="text">Digital Marketing</div>
+                                  </div>
+                                </td>
+                                <td class="status statusColumn"><span class="badge badge-pill closed">Closed</span></td>
+                                
+                                <td class="applicationcountColumn"><button class="btn btn-disabled">View Application (18)</button></td>
+                                <td></td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          Internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="first">Web development</td>
+                                <td class="status statusColumn"><span class="badge badge-pill closed">Closed</span></td>
+                                <td class="applicationcountColumn"><button class="btn btn-disabled">View application (19)</button></td>
+                                <td></td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          Internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="first">Content Writing</td>
+                                <td class="status"><span class="badge badge-pill closed">Closed</span></td>
+                                <td class="applicationcountColumn"><button class="btn">View Hired Candidates</button></td>
+                                <td></td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton5" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-circle-xmark"></i>&nbsp;Close internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Extend deadline</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </div>
+
+                      </div>
+                      <div class="carousel-item" data-bs-interval="100000">
+                        <div class="table">
+                          <table class="m-auto">
+                            <thead>
+                              <tr>
+                                <th scope="col">Profile</th>
+                                <th scope="col">State</th>
+                                <th scope="col" class="actionColumn">Action</th>
+                                <th scope="col" class="upgradeColumn"> <span>Upgrade to premium</span>
+
+                                  <span><a href="#" data-bs-toggle="tooltip" title="Some tooltip text!"
+                                      data-bs-placement="bottom">
+                                      <i class="fa-solid fa-circle-question"></i></a>
+
+
+                                    <div class="tooltip bs-tooltip-top" role="tooltip" data-bs-placement="bottom">
+
+                                      <div class="tooltip-inner">
+                                        Some tooltip text!
+                                      </div>
+                                    </div>
+                                  </span>
+
+                                </th>
+                                <th></th>
+                                <th></th>
+                              </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                              <tr>
+                                <td class="first">Web development</td>
+                                <td class="status statusColumn"><span class="badge badge-pill active">Active</span></td>
+                                <td class="applicationcountColumn"><button class="btn">View Application (17)</button></td>
+                                <td class="upgradepremium"><img src="./images/paid_feature.svg">&nbsp;<a class="upgrade" href="">Upgrade</a>
+                                </td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton6" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-circle-xmark"></i>&nbsp;Close internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Extend deadline</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+                              <tr>
+
+                                <td class="first">Human Resource (HR)</td>
+                                <td class="status statusColumn"><span class="badge badge-pill active">Active</span></td>
+                                <td class="applicationcountColumn"><button class="btn">View Application (15)</button></td>
+                                <td class="upgradepremium"><img src="./images/paid_feature.svg">&nbsp;<a class="upgrade" href="">Upgrade</a>
+                                </td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton7" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-circle-xmark"></i>&nbsp;Close internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Extend deadline</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+
+                                <td class="first">Digital Marketing</td>
+                                <td class="status statusColumn"><span class="badge badge-pill closed">Closed</span></td>
+                                <td class="applicationcountColumn"><button class="btn btn-disabled">View Application (18)</button></td>
+                                <td></td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton8" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton8">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          Internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </div>
+
+                      </div>
+                      <div class="carousel-item" data-bs-interval="10000">
+                        <div class="table">
+                          <table class="m-auto">
+                            <thead>
+                              <tr>
+                                <th scope="col">Profile</th>
+                                <th scope="col">State</th>
+                                <th scope="col" class="actionColumn">Action</th>
+                                <th scope="col" class="upgradeColumn"> <span>Upgrade to premium</span>
+
+                                  <span><a href="#" data-bs-toggle="tooltip" title="Some tooltip text!"
+                                      data-bs-placement="bottom">
+                                      <i class="fa-solid fa-circle-question"></i></a>
+
+
+                                    <div class="tooltip bs-tooltip-top" role="tooltip" data-bs-placement="bottom">
+
+                                      <div class="tooltip-inner">
+                                        Some tooltip text!
+                                      </div>
+                                    </div>
+                                  </span>
+
+                                </th>
+                                <th></th>
+                                <th></th>
+                              </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                              <tr>
+                                <td class="first">Web development</td>
+                                <td class="status statusColumn"><span class="badge badge-pill active">Active</span></td>
+                                <td class="applicationcountColumn"><button class="btn">View Application (17)</button></td>
+                                <td class="upgradepremium"><img src="./images/paid_feature.svg">&nbsp;<a class="upgrade" href="">Upgrade</a>
+                                </td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton9" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton9">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-circle-xmark"></i>&nbsp;Close internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Extend deadline</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+                                    </ul>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+
+                                <td class="first">Human Resource (HR)</td>
+                                <td class="status statusColumn"><span class="badge badge-pill active">Active</span></td>
+                                <td class="applicationcountColumn"><button class="btn">View Application (15)</button></td>
+                                <td class="upgradepremium"><img src="./images/paid_feature.svg">&nbsp;<a class="upgrade" href="">Upgrade</a>
+                                </td>
+                                <td class="sharenode"><a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton10" data-bs-toggle="dropdown"
+                                      aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton10">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-circle-xmark"></i>&nbsp;Close internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i
+                                            class="fa-solid fa-pen-to-square"></i>&nbsp;Extend deadline</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+                              <tr>
+
+                                <td class="first">Digital Marketing</td>
+                                <td class="status statusColumn"><span class="badge badge-pill closed">Closed</span></td>
+                                <td class="applicationcountColumn"><button class="btn btn-disabled">View Application (18)</button></td>
+                                <td></td>
+                                <td class="sharenode"> <a href=""><i class="fa-solid fa-share-nodes share-icon"></i></a></td>
+                                <td class="optionsColumn">
+                                  <div class="dropdown">
+                                    <a href="" id="dropdownMenuButton11" data-bs-toggle="dropdown"
+                                      aria-expanded="false">
+                                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton11">
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-eye"></i>&nbsp; View
+                                          Internship</a></li>
+                                      <li><a class="dropdown-item" href="#"><i class="fa-solid fa-copy"></i>&nbsp;Post
+                                          similar internship</a></li>
+
+                                    </ul>
+                                  </div>
+
+                                </td>
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="col-md-10 offset-md-1">
+                 <div class="table">
+                  <table class="m-auto">
+                    <thead>
+                      <tr>
+                        <th scope="col">Job Title</th>
+                        <th scope="col">Status</th>
+                        <th scope="col" class="actionColumn">Action</th>
+                        <th></th>
+                      </tr>
+
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Digital Markting Executive</td>
+                        <td class="status statusColumn"><span class="badge badge-pill draft">Draft</span></td>
+                        <td class="applicationcountColumn"><button class="btn">Review and post</button></td>
+
+                        <td class="optionsColumn">
+                          <div class="dropdown">
+                            <a href="" id="dropdownMenuButton12" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton12">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  </div>
+
+  <footer class="mt-4 ">
+    <div class="container-fluid bg-dark">
+      <div class="max-width-container text-center ">
+        <div class="elements text-white">
+          <div class="element">About us</div>
+          <div class="element">We're Hiring</div>
+          <div class="element">Employer Resources</div>
+          <div class="element">Our Services</div>
+          <div class="element">Terms & Conditions</div>
+          <div class="element">Privacy</div>
+          <div class="element">Refund Policy</div>
+          <div class="element">Contact us</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-bottom float-end container-fluid bg-dark">
+
+
+      <div id="copyright" class="text-white p-2">
+        © Copyright 2022 Internshala </div>
+
+    </div>
+    </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
